@@ -1,0 +1,36 @@
+footer{
+    padding: 1%;
+    color: white;
+    background: #343a40;
+    text-align: center
+}
+.left-navbar{
+min-width:80%
+}
+.right-navbar{
+padding-right: 5%;
+padding-left: 8%
+}
+.navbar-toggler{
+    position: relative;
+    
+}
+.navbar-toggler .collapsed{
+    position: relative;
+    
+}
+li{
+    margin: auto
+}
+@media screen and (max-width:800px)
+{
+    footer{
+        font-size: 13px
+    }
+    .nav-link{
+        font-size:14px
+    }
+    li{
+        margin: 0px
+    }
+}

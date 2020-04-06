@@ -1,0 +1,20 @@
+
+<div class="myFav">
+        <h4>My Favourites ({{productCount}})</h4>
+        <div class="fav-card">
+            
+           <div class="product-content" *ngFor='let product of products' >
+                <img src={{product.images}} width="200px" height="150px">
+                <div class="item-content">  
+                        <h4> {{product.name}}  </h4>
+                        
+                        Price: <p>₹ {{product.price}}  </p>
+                        
+                       
+                     </div> 
+                    
+        </div>
+        </div>
+        <div class="empty-fav"*ngIf=emptyFav> No Favourites!!</div>
+    </div>
+    

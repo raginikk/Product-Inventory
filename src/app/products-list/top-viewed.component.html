@@ -1,0 +1,21 @@
+<div>
+    <div>
+        <button (click)="ViewTop3()">Top 3</button>
+        <button (click)="ViewTop5()">Top 5</button>
+        <button (click)="ViewTop10()">Top 10</button>
+
+    </div>
+  <div>
+    <div style="display: block">
+      <canvas baseChart
+        [datasets]="barChartData"
+        [labels]="barChartLabels"
+        [options]="barChartOptions"
+        [plugins]="barChartPlugins"
+        [legend]="barChartLegend"
+        [chartType]="barChartType">
+      </canvas>
+    </div>
+
+  </div>
+</div>

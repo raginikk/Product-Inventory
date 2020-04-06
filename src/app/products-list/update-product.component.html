@@ -1,0 +1,22 @@
+<div >
+        <form class="content" #myForm="ngForm" (ngSubmit)="UpdateProduct()" action="./product-list/product-list.component.html">
+            <div class="container">
+            <label>Name:</label> <input *ngIf=checkProduct value={{name}} type="text" (input) = 'name = $event.target.value'required/><br/>
+            <label>Quantity:</label><input *ngIf=checkProduct value={{quantity}} type="number" (input) = 'quantity = $event.target.value' required/><br/>
+            <label>Manufacturer:</label><input *ngIf=checkProduct value={{manufacturer}} type="text" (input) = 'manufacturer = $event.target.value' required/><br/>
+            <label> Price:</label><input *ngIf=checkProduct value={{price}} type="number" (input)="price = $event.target.value" required/><br/>
+            <label> Description:</label><input *ngIf=checkProduct value={{description}} type="text" (input)="description = $event.target.value" required/><br/>
+            <label> Category:</label><input *ngIf=checkProduct value={{category}} type="text" (input)="category = $event.target.value" required/><br/>
+        <div class="buttons">
+            <button type="submit">Update</button>
+    
+            <button (click)="Cancel()">Cancel</button>
+        </div>  
+        </div>
+       
+        
+      
+        </form>
+        
+    </div>
+    

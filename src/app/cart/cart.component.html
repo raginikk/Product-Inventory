@@ -1,0 +1,22 @@
+<div class="myCart">
+    <h4>My Cart ({{productCount}})</h4>
+    <div class="cart-card">
+        
+       <div class="product-content" *ngFor='let product of products' >
+            <img src={{product.images}} width="200px" height="150px">
+            <div class="item-content">  
+                    <h4> {{product.name}}  </h4>
+                    
+                    Price: <p>₹ {{numberWithCommas(product.price)}}  </p>
+                    <button (click)="RemoveProduct(product)">Remove</button>
+                    
+                    
+                 </div> 
+                
+    </div>
+    <div class="cart-footer">
+            <h4>Total: {{numberWithCommas(totalPrice)}}</h4>
+    </div>
+    </div>
+    <div class="empty-cart"*ngIf=emptyCart> Your cart is empty!!</div>
+</div>

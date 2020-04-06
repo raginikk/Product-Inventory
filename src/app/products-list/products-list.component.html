@@ -1,0 +1,81 @@
+<div >
+        <div class="container">
+                <div>
+                    <input type="search"  [(ngModel)]='nameFilter'name="search" placeholder="Search for items or categories..."/>
+                   
+                </div>
+                <div class="sort">
+                       Sort By: <select (change)="sortProducts()" name="sortproduct" (input) = 'sortProduct = $event.target.value' required>
+                                <option value="LowPrice"> Low Price</option>
+                                <option value="HighPrice">High Price</option>
+                                <option value="TopViewed">Top Viewed</option>
+
+                            </select>
+                </div>
+                  <div class="col-md-3 col-sm-6 productCard"  *ngFor='let product of products | searchFilter: nameFilter'>
+                     <div *ngIf=product.check class="panel panel-default card-check" (click)="checkProduct(product)">
+                    <div class="card-body">
+                            <img src={{product.images}} width="150px" height="100px" />
+                    </div>
+                    <div class="card-title">
+                            <a [routerLink]="['/products',product.id]"  >
+                                {{product.name}}</a>
+
+                            </div>
+                    <div class="card-text">₹ {{numberWithCommas(product.price)}}</div>
+
+                    <div class="card-footer">
+                            <div>
+                         <i *ngIf=!product.fav (click)="AddToFav(product)" class="far fa-heart"></i>
+                            <i *ngIf=product.fav  (click)="AddToFav(product)" class="fas fa-heart"></i>
+
+
+                            <i (click)="AddToCart(product)"class="fa fa-shopping-cart"></i>
+                        </div>
+                        <div>
+                           <a *ngIf=checkAdmin (click)="UpdateItem(product.id)" ><i class="fa fa-edit"></i></a> 
+                            <i *ngIf="checkAdmin && !product.check"  (click)="DeleteItem(product.id)" class="fas fa-trash-alt"></i>
+                        </div>
+                    </div>
+                  </div>
+                  <div *ngIf=!product.check class="panel panel-default card-uncheck" (click)="checkProduct(product)">
+                        <div class="card-body">
+                                <img src={{product.images}} width="100%" height="150px" />
+                        </div>
+                        <div class="card-title">
+                                <a [routerLink]="['/products',product.id]"  >
+                                    {{product.name}}</a>
+    
+                                </div>
+                        <div class="card-text">₹ {{numberWithCommas(product.price)}}</div>
+    
+                        <div class="card-footer">
+                                <div>
+                             <i *ngIf=!product.fav (click)="AddToFav(product)" class="far fa-heart"></i>
+                                <i *ngIf=product.fav  (click)="AddToFav(product)" class="fas fa-heart"></i>
+    
+    
+                                <i (click)="AddToCart(product)"class="fa fa-shopping-cart"></i>
+                            </div>
+                            <div>
+                               <a *ngIf=checkAdmin (click)="UpdateItem(product.id)" ><i class="fa fa-edit"></i></a> 
+                                <i *ngIf=checkAdmin  (click)="DeleteItem(product.id)" class="fas fa-trash-alt"></i>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+                
+              </div>
+
+
+
+    
+    <button name="save" *ngIf=checkAdmin  (click)="addProductLink()">Add New Product</button>
+    <button name="delete" *ngIf=checkAdmin  (click)="deleteSelected()">Delete Selected Products</button>
+</div>
+<script>
+numberWithCommas = (x) => {
+    if (x !== null && x !== undefined)
+      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+</script>

@@ -1,0 +1,27 @@
+.product-card{
+display: flex
+}
+.product-content{
+    margin: 2%
+}
+button {
+    max-width: 100%;
+    background-color: rgba(43, 97, 199, 0.582);
+    color: white;
+    padding: 14px ;
+    margin: 14px;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+  }
+@media screen and (max-width:600px){
+    .product-card{
+        display:block;
+
+    }
+    button{
+        padding:4px;
+        width:40%
+
+    }
+}

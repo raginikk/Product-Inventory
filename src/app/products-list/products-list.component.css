@@ -1,0 +1,74 @@
+.productCard{
+    margin: 4%
+}
+.row{
+    border: solid grey 1px
+}
+button[name=save],[name=delete] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 7px ;
+    margin: 14px;
+    border: none;
+    cursor: pointer;
+    max-width: 100%;
+  }
+
+  .card-uncheck:hover {
+    transform: scale(1.10);
+
+  }
+  .card-check{
+    transform: scale(1.10);
+   
+
+  }
+  .card-title,.card-text{
+    padding:2%
+  }
+  
+  .card-footer i:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+  }
+  input{
+      width: 100%;
+      padding:1%;
+     
+  }
+  .card-footer{
+    display: flex;
+    justify-content: space-between
+  }
+  #product-title{
+    color:rgba(87, 164, 236, 0.897)
+  }
+  #product-title:hover{
+    cursor: pointer;
+    color:blue
+
+  }
+  .sort{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+ 
+  @media screen and (max-width:600px){
+    .card-title,.card-text{
+     font-size: 12px
+    }
+    button[name=save],[name=delete] {
+      font-size: 13px
+    }
+    img{
+      height: auto;
+    }
+  }
+  @media screen and (max-width:800px){
+    .card-title,.card-text{
+     font-size: 12px
+    }
+    button[name=save],[name=delete] {
+      font-size: 13px
+    }}

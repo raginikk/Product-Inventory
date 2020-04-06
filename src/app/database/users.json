@@ -1,0 +1,173 @@
+{
+  "users": [
+    {
+      "id": "101",
+      "email": "John@gmail.com",
+      "password": "admin",
+      "firstName": "John",
+      "lastName": "Legend",
+      "location": "US",
+      "mobileNo": "8437734892",
+      "role": "Admin"
+    },
+    {
+      "id": "102",
+      "email": "Peter@gmail.com",
+      "password": "peter",
+      "firstName": "Peter",
+      "lastName": "Parker",
+      "location": "London",
+      "mobileNo": "2872987",
+      "role": "Customer"
+    },
+    {
+      "id": "103",
+      "email": "Tony@gmail.com",
+      "password": "tony",
+      "firstName": "Tony",
+      "lastName": "Stark",
+      "location": "Chicago",
+      "mobileNo": "9304944323",
+      "role": "Customer"
+    },
+    {
+      "email": "ragini@gmail.com",
+      "password": "12345",
+      "firstName": "ragini",
+      "lastName": "kamble",
+      "location": "blr",
+      "mobileNo": "07721013395",
+      "id": "9Ww2otQ",
+      "role": "Admin"
+    },
+    {
+      "email": "takshita@gmail.com",
+      "password": "kumkum",
+      "firstName": "takshita",
+      "lastName": "kamble",
+      "location": "maharashtra",
+      "mobileNo": "987654321",
+      "id": "Vk6y0Ow",
+      "role": "Customer"
+    },
+    {
+      "email": "khyati@gmail.com",
+      "password": "12345",
+      "firstName": "khyati",
+      "lastName": "kamble",
+      "location": "amravati",
+      "mobileNo": "987654321",
+      "gender": "Male",
+      "id": "jHeHYTa",
+      "role": "Customer"
+    },
+    {
+      "email": "t@gmail.com",
+      "password": "4321",
+      "firstName": "takshita",
+      "lastName": "kamble",
+      "location": "blr",
+      "mobileNo": "87653423423",
+      "gender": "Male",
+      "id": "2zaZl62",
+      "role": "Customer"
+    },
+    {
+      "email": "w@gmail.com",
+      "password": "haha",
+      "firstName": "wesley",
+      "lastName": "banner",
+      "location": "usa",
+      "mobileNo": "39234323",
+      "id": "IjuabiX",
+      "role": "Customer"
+    },
+    {
+      "email": "ajinkya@gmail.com",
+      "password": "jinx",
+      "firstName": "ajinkya",
+      "lastName": "bhasme",
+      "location": "mumbai",
+      "mobileNo": "9657574564",
+      "id": "vuIxqCE",
+      "role": "Customer"
+    },
+    {
+      "email": "Toni@gmail.com",
+      "password": "zzzz",
+      "firstName": "xxxxxx",
+      "lastName": "xxxxxx",
+      "location": "xxxxx",
+      "mobileNo": 7721013395,
+      "gender": "Female",
+      "role": "Customer",
+      "id": "qjmwVWc"
+    },
+    {
+      "email": "khyati@reddit.com",
+      "password": "12345",
+      "firstName": "khyati",
+      "lastName": "kamble",
+      "location": "amravati",
+      "mobileNo": 987654323,
+      "gender": "Female",
+      "role": "Customer",
+      "id": "8IWVF1n"
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "123456",
+      "firstName": "abish",
+      "lastName": "matt",
+      "location": "USA",
+      "mobileNo": 9876543345,
+      "gender": "Male",
+      "role": "Customer",
+      "id": "Et90OTb"
+    },
+    {
+      "email": "tfgde",
+      "password": "1234",
+      "firstName": "andy",
+      "lastName": "singh",
+      "location": "USA",
+      "mobileNo": 7721013395,
+      "gender": "Female",
+      "role": "Customer",
+      "id": "BW_fnyy"
+    },
+    {
+      "email": "ragini@gmail.co",
+      "password": "1234",
+      "firstName": "ragini",
+      "lastName": "kamble",
+      "location": "mumbai",
+      "mobileNo": 232445678,
+      "gender": "Female",
+      "role": "Customer",
+      "id": "ih6IMXe"
+    },
+    {
+      "email": "farah@gmail.com",
+      "password": "1234",
+      "firstName": "farah",
+      "lastName": "khan",
+      "location": "USA",
+      "mobileNo": 7721033952,
+      "gender": "Male",
+      "role": "Customer",
+      "id": "lZsX-Ez"
+    },
+    {
+      "email": "tony@reddit.com",
+      "password": "12345",
+      "firstName": "Tony",
+      "lastName": "Stark",
+      "location": "USA",
+      "mobileNo": 9876543201,
+      "gender": "Male",
+      "role": "Customer",
+      "id": "Wibq8TE"
+    }
+  ]
+}

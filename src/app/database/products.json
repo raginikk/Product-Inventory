@@ -1,0 +1,136 @@
+{
+  "products": [
+    {
+      "name": "IPhone X",
+      "quantity": "50",
+      "manufacturer": "Apple",
+      "price": "60000",
+      "description": "iPhone X features an all-screen design with a 5.8-inch Super Retina HD display with HDR and True Tone. Designed with the most durable glass ever in a smartphone and a surgical grade stainless steel band. Charges wirelessly. Resists water and dust. 12MP dual cameras with dual optical image stabilization for great low-light photos. True Depth camera with Portrait selfies and new Portrait Lighting. Face ID lets you unlock and use Apple Pay with just a glance. Powered by A11 Bionic, the most powerful and smartest chip ever in a smartphone. Supports augmented reality experiences in games and apps. With iPhone X, the next era of iPhone has begun.",
+      "category": "Mobile",
+      "view": 55,
+      "images": "../../../assets/images/IphoneX.jpeg",
+      "check": false,
+      "id": "jf3BKLB"
+    },
+    {
+      "name": "Google Pixel 3",
+      "quantity": "50",
+      "manufacturer": "Google",
+      "price": "50000",
+      "description": "The pixel 3 ensures that there’s never a dull moment, all thanks to its powerful battery, impressive cameras and its expansive bezel-less display.",
+      "category": "Mobile",
+      "view": 33,
+      "images": "../../../assets/images/GooglePixel3.jpeg",
+      "check": false,
+      "id": "jf3BKmt"
+    },
+    {
+      "name": "Lenovo Yoga 730 Intel Core ",
+      "quantity": "200",
+      "manufacturer": "lenovo",
+      "price": "98700",
+      "description": "1.12 kgs and 13.9 mm thin with 3 sided narrow bezels. Extremely slim, light and easy to carry with wider display for life-like view. JBL Speakers with Dolby Atmos. Premium quality audio for immersive experience. 2 Thunderbolt ports and up to 2X2 AC Wi-fi. Future Ready port for 4X faster data transfers and faster WiFi protocol. Hardbundled Active Pen 2. Bluetooth active pen with 4096 point sensitivity with palm rejection technology . Up to 11 hours battery life with Rapid Charge. Your travel buddy with long battery life and rapid charge that offers 2 hours usage in 15 minutes.",
+      "category": "Laptop",
+      "view": 25,
+      "images": "../../assets/images/LenovoYoga.jpeg",
+      "check": false,
+      "id": "QxMKJZb"
+    },
+    {
+      "name": "HP Pavilion AMD Ryzen ",
+      "quantity": "20",
+      "manufacturer": "HP",
+      "price": "51999",
+      "description": "Express yourself like never before with this stylish powerhouse built just for you. Slim enough to follow you anywhere, and powerful enough to make it through any day.",
+      "category": "Laptop",
+      "view": 41,
+      "images": "../../assets/images/HPpavilion.jpeg",
+      "check": false,
+      "id": "a_X5VlL"
+    },
+    {
+      "name": "MacBook Pro 13",
+      "quantity": "300",
+      "manufacturer": "Apple",
+      "price": "114990",
+      "description": "MacBook Pro features a new quad-core Intel processor for up to 90 percent faster performance. A brilliant and colorful Retina display with True Tone technology for a more comfortable viewing experience. Touch ID. The latest Apple-designed keyboard. And dynamic, contextual controls with Touch Bar. So you can take productivity to the next level.",
+      "category": "Laptop",
+      "view": 9,
+      "images": "../../assets/images/MacbookPro13.png",
+      "check": false,
+      "id": "Kp12Zd"
+    },
+    {
+      "name": "Apple iPad",
+      "quantity": "30",
+      "manufacturer": "Apple",
+      "price": "40900",
+      "description": "Apple product with A12 Bionic chip with 64‑bit architecture, Neural Engine, Embedded M12 coprocessor, 8MP camera with HDR and 1080p HD video and Compatible with Smart Keyboard and Bluetooth keyboards ",
+      "category": "Tablet",
+      "view": 3,
+      "images": "../../assets/images/AppleIpadAir2.jpeg",
+      "check": false,
+      "id": "Lp42Z"
+    },
+    {
+      "name": "Sony headphones",
+      "quantity": "30",
+      "manufacturer": "Sony",
+      "price": "7000",
+      "description": "Embrace the bass. The WH-XB700 EXTRA BASS™ headphones combine powerful EXTRA BASS™ sound with vocal clarity, Bluetooth® connection, long battery life, sleek design and everyday comfort and practicality.",
+      "category": "Headphones",
+      "view": 27,
+      "images": "../../assets/images/SonyXtraBass.jpeg",
+      "check": false,
+      "id": "Kp4h2"
+    },
+    {
+      "name": "One Plus 7",
+      "quantity": "30",
+      "manufacturer": "Oppo Electronics",
+      "price": "32000",
+      "description": "Go beyond speed with OnePlus 7 packed with Snapdragon 855, an immersive Full HD display, an industry leading dual camera and premium glass design",
+      "category": "Mobiles",
+      "view": 12,
+      "images": "../../assets/images/OnePlus6.jpeg",
+      "check": false,
+      "id": "Kp4h2d"
+    },
+    {
+      "name": "Mi note 5 pro",
+      "quantity": "30",
+      "manufacturer": "Xiaomi",
+      "price": "60000",
+      "description": "Qualcomm snapdragon 636, 1.8 GHz processor, 4000mah battery capacity, 15.91 cm (5.99\") FHD+ display, 6gb + 64gb flash memory, Miui 9 based on android 7.1.1, 12 MP + 5 MP dual rear camera with portrait mode PDAF, HDR, flash, 20 MP front camera with portrait mode, flash light, proximity sensor, e compass, gyroscope, accelerometer, IR blaster.",
+      "category": "Mobile",
+      "view": 8,
+      "images": "../../assets/images/Minote5Pro.png",
+      "check": false,
+      "id": "Kp4hZd"
+    },
+    {
+      "name": "One Plus 7 pro",
+      "quantity": "30",
+      "manufacturer": "Oppo Electronics",
+      "price": "45000",
+      "description": "Go beyond speed with 'OnePlus' newest flagship with an unique full display, an industry leading triple camera and premium glass design.",
+      "category": "Mobile",
+      "view": 4,
+      "images": "../../assets/images/OnePlus7Pro.jpeg",
+      "check": false,
+      "id": "sxjsxs"
+    },
+    {
+      "name": "MI note 8 pro",
+      "quantity": 20,
+      "manufacturer": "Xiaomi",
+      "price": "18000",
+      "description": "64MP quad-camera.Flagship-level camera. Ultra-high-resolution, every detail matters. 25 times of pixels of the display. Zoom in for more details.Supports 4K video recording, 960fps slow-motion video recording.  20MP selfie camera. Fine-tuned AI Beautify for photo taking and video recording.The portrait mode allows you to adjust the depth of field blur and take more professional selfies.  Gaming processor with LiquidCool technology. Helio G90T gaming processor Cortex-A76 architecture Greater performance compare to Snapdragon 710*.  Powerful GPU performance. Run high-intensity games at a sustainably high frame rate.  Streamlined design. 4-sided 3D curved back. Fits comfortably in your hand. Low blue light TÜV Rheinland-certified screen.  Starts with 6G RAM and multifunctional NFC. Turns your phone to a wallet.  Handle multi-tasking easily.  Splash-proof coating. Protect the phone against accidental splashes and spills.  Corning Gorilla Glass 5 front and rear. Reduced the possibility of screen damage from falling.  Rubber seal for connector. Dust and splash-proof.",
+      "category": "Mobile",
+      "view": 10,
+      "images": "../../assets/images/Minote8Pro.png",
+      "check": false,
+      "id": "Tplp7G8"
+    }
+  ]
+}

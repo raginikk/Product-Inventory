@@ -1,0 +1,18 @@
+<div>
+        <h2>Product Details</h2>
+        <div class="product-card">
+           <div class="product-content"><img src={{product.images}} width="200px" height="150px"/></div> 
+           <div *ngIf=!product>Loading...</div>
+            <div class="product-content">  
+                  <h3> Product Name:  {{product.name}}  </h3>
+              
+               <h4> Price: ₹ {{price}} </h4>
+               <h5> Manufacturer: {{product.manufacturer}}  </h5>
+               <h4>Product description:</h4>
+               <h5> {{product.description}}  </h5>
+            </div> 
+        </div>
+        <button (click)="goBack()">Back</button>
+
+    </div>
+   

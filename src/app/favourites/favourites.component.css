@@ -1,0 +1,27 @@
+.fav-card{
+    display:flex;
+    flex-direction: column;
+
+}
+.product-content{
+    display: flex;
+    padding:2%
+}
+.item-content{
+    padding:1%
+
+}
+
+
+input{
+    width:30px;
+    text-align: center
+}
+.myFav{
+    padding:2%
+}
+.empty-fav{
+    padding:15% 40%;
+    color:darkgray;
+    font-size: xx-large
+}

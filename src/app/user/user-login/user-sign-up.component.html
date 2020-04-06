@@ -1,0 +1,42 @@
+<div >
+    <form #myForm="ngForm" *ngIf=!signedUp class="content"  (ngSubmit)="addUser(myForm.value)" >
+        <div class="container">
+        
+        Email:<input type="email"  [(ngModel)]="email" name="email" [pattern]="emailPattern"required/><br/>
+        Password:<input type="password" [(ngModel)]="password" name="password" required/><br/>
+        Confirm Password:<input type="password" [(ngModel)]="Cpassword" name="Cpassword" required/><br/>
+        First Name:<input type="text" [(ngModel)]="firstName" name="firstName" required/><br/>
+        Last Name:<input type="text"[(ngModel)]="lastName" name="lastName" required/><br/>
+
+        Gender:<select name="gender" [(ngModel)]="gender" name="gender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <br/>
+        Location:<input type="text" [(ngModel)]="location" name="location" required/><br/>
+        Mobile No.:<input type="number" [(ngModel)]="mobileNo" name="mobileNo" maxlength="10" required/><br/>
+        
+        <button type="submit" [disabled]="myForm.invalid">Sign Up</button>
+       
+        <p style="color:red">{{message}}</p>
+    </div>
+    
+   
+    <p class="login-link"(click)="GoToLogin()">Already have an account</p>
+  
+    </form>
+    
+    <div class="container" *ngIf=signedUp>
+            <h3>Registration successful!!</h3>
+            <h4>Your registration details are:</h4>
+            <div>
+                <p>Name : {{firstName}} {{lastName}} </p>
+                <p>E-mail : {{email}} </p>
+                <p>Gender : {{gender}} </p>
+                <p>Mobile No. : {{mobileNo}}</p>
+                <p>Location : {{location}} </p>
+            </div>
+           
+        </div>
+    
+</div>
