@@ -23,7 +23,7 @@
     "@angular/service-worker": "~8.1.1",
     "acorn": "^6.4.1",
     "chart": "^0.1.2",
-    "chart.js": "^2.8.0",
+    "chart.js": "^2.9.4",
     "chartjs-plugin-datalabels": "^0.7.0",
     "handlebars": "^4.4.0",
     "kind-of": "^6.0.3",
