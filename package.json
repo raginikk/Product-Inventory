@@ -27,7 +27,7 @@
     "chartjs-plugin-datalabels": "^0.7.0",
     "handlebars": "^4.4.0",
     "kind-of": "^6.0.3",
-    "minimist": "^1.2.4",
+    "minimist": "^1.2.6",
     "ng2-charts": "^2.3.0",
     "rxjs": "~6.4.0",
     "serialize-javascript": "^3.0.0",
